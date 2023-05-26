@@ -2,10 +2,7 @@
 
 #include<iostream>
 #include<math.h>
-
 using namespace std;
-
-
 struct node1
 {
     int data1;
@@ -281,7 +278,7 @@ void TOH(int n)
 int main()
 {
     int n, i;
-    cout << "Enter the Number of Disks\n";
+    cout << "Enter the Number of Disks : \n";
     cin >> n;
     for (i = n; i >= 1; i--)
     {
