@@ -179,7 +179,7 @@ void TOH(int n)
     int i, x, a, b;
     for (i = 0; i < (pow(2, n)); i++)
     {
-        cout << "Step " << i << endl;
+        cout << "Step " << i+1 << endl;
         display1();
         display2();
         display3();
